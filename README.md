@@ -27,7 +27,7 @@ var filterOptions = {
 var someMoreFiltering = new $.DragDropFilter($('#filter-results ul'), preFilterFunction, filterOptions);
 ```
 
-Here are the currently available options (and their defaults for the plugin:
+Here are the currently available options (and their defaults) for the plugin:
 ``` js
 var filterOptions = {
 	optionsContainer: $('#filter-options'),		
