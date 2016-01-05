@@ -39,3 +39,12 @@ var filterOptions = {
 	alertSec: 2000
 };
 ```
+
+As you can see from the defaults, unless these values are changed, you must have an element with an ID of 'filter-options' for the plugin to work correctly.
+
+**For the filtering to function properly, you must also have data attribute such as 'data-categories' (unless you change this value in the options object) on each item in the list of items you are filtering. The value for this attribute should simply be a space-delimited list of the options associated with that item.**
+
+For example, if you are filtering products by types like "new, sale, used", an item in your list of results might look something like this:
+``` html
+<li class="product" data-categories="sale used">...</li>
+```
